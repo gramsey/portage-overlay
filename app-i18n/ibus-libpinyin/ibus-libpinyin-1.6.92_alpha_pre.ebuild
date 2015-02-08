@@ -28,9 +28,9 @@ src_prepare() {
 
 src_configure() {
 	econf \
-		$(use enable boost ) \
-		$(use enable opencc ) \
-		$(use enable lua lua-extension ) \
+		$(use_enable boost ) \
+		$(use_enable opencc ) \
+		$(use_enable lua lua-extension ) \
 		--enable-english-input-mode
 }
 
