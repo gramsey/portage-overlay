@@ -20,7 +20,7 @@ RDEPEND=">=app-i18n/ibus-1.4
     dev-python/pygtk
     app-i18n/pyzy
     boost? ( >=dev-libs/boost-1.39 )
-	lua? ( >=dev-lang/lua-5.1)"
+	lua? ( >=dev-lang/lua-5.1 )"
 
 src_prepare() {
 	true;	
