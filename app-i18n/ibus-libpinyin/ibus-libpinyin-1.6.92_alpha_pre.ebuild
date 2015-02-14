@@ -17,6 +17,7 @@ IUSE="boost opencc lua"
 
 DEPEND=""
 RDEPEND=">=app-i18n/ibus-1.4
+	>=app-i18n/libpinyin-1.0.0
 	dev-python/pygtk
 	app-i18n/pyzy
 	boost? ( >=dev-libs/boost-1.39 )
