@@ -3,7 +3,7 @@
 # $Header: $
 
 EAPI=5
-inherit git-r3
+inherit git-r3 autotools
 
 DESCRIPTION="ibus-libpinyin - pinyin chinese input for ibus using libpinyin"
 HOMEPAGE="https://github.com/libpinyin/ibus-libpinyin"
@@ -23,7 +23,7 @@ RDEPEND=">=app-i18n/ibus-1.4
 	lua? ( >=dev-lang/lua-5.1 )"
 
 src_prepare() {
-	true;
+	eautoreconf
 }
 
 src_configure() {
