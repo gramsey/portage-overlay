@@ -5,8 +5,7 @@
 EAPI=5
 PYTHON_COMPAT=( python2_7 )
 
-inherit git-r3 autotools python-single-r1 
-
+inherit git-r3 autotools python-single-r1
 
 DESCRIPTION="ibus-libpinyin - pinyin chinese input for ibus using libpinyin"
 HOMEPAGE="https://github.com/libpinyin/ibus-libpinyin"
