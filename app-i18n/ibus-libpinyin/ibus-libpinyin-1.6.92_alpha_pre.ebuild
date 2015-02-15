@@ -30,7 +30,7 @@ RDEPEND=">=app-i18n/ibus-1.4[python,${PYTHON_USEDEP}]
 DOCS="AUTHORS ChangeLog NEWS README"
 
 src_prepare() {
-	sed -i -e "s/python/${EPYTHON}/" setup/ibus-setup-pinyin.in || die
+	sed -i -e "s/python/${EPYTHON}/" setup/ibus-setup-libpinyin.in || die
 	eautoreconf
 }
 
