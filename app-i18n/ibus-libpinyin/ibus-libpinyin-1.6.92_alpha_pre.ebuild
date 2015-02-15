@@ -46,8 +46,3 @@ src_compile() {
 		emake || die "emake failed"
 	fi
 }
-
-src_install() {
-	emake DESTDIR="${D}" install
-	dodoc
-}
