@@ -9,7 +9,8 @@ MODELV=8
 
 DESCRIPTION="Library for Chinese pinyin input methods"
 HOMEPAGE="https://github.com/libpinyin/libpinyin"
-SRC_URI="https://github.com/${PN}/${PN}/archive/${PV}.tar.gz -> ${P}.tar"
+SRC_URI="https://github.com/${PN}/${PN}/archive/${PV}.tar.gz -> ${P}.tar
+	http://downloads.sourceforge.net/${PN}/models/model${MODELV}.text.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
