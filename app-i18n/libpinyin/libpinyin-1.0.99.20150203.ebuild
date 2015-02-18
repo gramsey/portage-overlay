@@ -5,7 +5,7 @@
 EAPI=5
 inherit autotools eutils
 
-MODELV=7
+MODELV=8
 
 DESCRIPTION="Library for Chinese pinyin input methods"
 HOMEPAGE="https://github.com/libpinyin/libpinyin"
